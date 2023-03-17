@@ -1,0 +1,735 @@
+@media screen and (max-width:400px) and (max-height:1100px) {
+  .calculator {
+    background-color: rgb(16, 233, 99);
+
+
+    position: relative;
+    height: 55vh;
+    width: 78vw;
+    border-radius: 10px;
+    ;
+    margin-top: 2.5rem;
+    box-sizing: border-box;
+    border: 3px solid brown;
+
+
+  }
+
+  .button {
+    padding: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+
+    border-radius: 7px;
+  }
+
+  #pos2 {
+    position: absolute;
+    right: 36px;
+  }
+
+  #pos3 {
+    position: absolute;
+    right: 0px;
+  }
+
+  #main {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: aliceblue
+  }
+
+  input[type="button"] {
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+  }
+
+  div.row1 {
+    background-color: aqua;
+    padding: 3px;
+    border: 5px solid blue;
+    position: relative;
+    left: 0px;
+    right: 0px;
+  }
+
+  /* 
+  img {
+    position: relative;
+    left: 18rem;
+  } */
+
+  div h1 {
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+  }
+
+
+  #number {
+    width: 96%;
+    position: relative;
+    left: 3px;
+
+
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid seagreen;
+    background-color: azure;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    line-height: 24px;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  .row8 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  #pos {
+    position: relative;
+    left: 0px;
+  }
+
+  .button:hover {
+    background-color: lightskyblue;
+  }
+
+
+  #pos1 {
+    position: relative;
+    left: 0px;
+    width: 20px;
+  }
+
+
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+  #main {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: aliceblue
+  }
+  #pos2 {
+    position: absolute;
+    right: 36px;
+    top: 11px;;
+  }
+
+  #pos3 {
+    position: absolute;
+    top: 11px;
+    right: 4px;
+  }
+  input[type="button"]{
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+  }
+
+  .calculator {
+    background-color: rgb(30, 220, 103);
+    height: 60vh;
+    width: 75vw;
+    border-radius: 10px;;
+    margin-top: 2.5rem;
+    box-sizing: border-box;
+    border: 5px solid brown;
+  }
+  .button {
+    padding: 6px;
+    font-size: 10px;
+    box-sizing: border-box;
+  
+    border-radius: 7px;
+  }
+  
+  div.row1 {
+    background-color: aqua;
+    padding: 3px;
+    border: 5px solid blue;
+    position: relative;
+    left: 0px;
+    right: 0px;
+  }
+/* 
+  img {
+    position: relative;
+    left: 18rem;
+  } */
+
+  div h1 {
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    left: 5px;
+  }
+
+
+  #number {
+    width: 96%;
+    position: relative;
+    left: 3px;
+
+
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid seagreen;
+    background-color: azure;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    line-height: 24px;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+
+
+
+  .row8 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  #pos {
+    position: relative;
+    left: 0px;
+
+  }
+
+
+  .button:hover {
+    background-color: lightskyblue;
+  }
+
+
+  #pos1 {
+    position: relative;
+    left: 0px;
+    width: 20px;
+  }
+}
+@media screen and (min-width:600px) and (max-width:800px) {
+  #main {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: aliceblue
+  }
+
+  input[type="button"]{
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+  }
+
+  .calculator {
+    background-color: rgb(30, 220, 103);
+    height: 65vh;
+    width: 75vw;
+    border-radius: 10px;;
+    margin-top: 2.5rem;
+    box-sizing: border-box;
+    border: 7px solid brown;
+  }
+  .button {
+    padding: 8px;
+    font-size: 13px;
+    box-sizing: border-box;
+  
+    border-radius: 7px;
+  }
+  
+  .row1 {
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid blue;
+  }
+/* 
+  img {
+    position: relative;
+    left: 18rem;
+  } */
+
+  div h1 {
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+  }
+
+
+  #number {
+    width: 96%;
+    position: relative;
+    left: 3px;
+
+
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid seagreen;
+    background-color: azure;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    line-height: 24px;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+
+
+
+  .row8 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  #pos {
+    position: relative;
+    left: 0px;
+
+  }
+
+
+  .button:hover {
+    background-color: lightskyblue;
+  }
+
+
+  #pos1 {
+    position: relative;
+    left: 0px;
+    width: 20px;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+  *{
+    margin:auto;
+    padding: 0;
+  }
+  #main {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: aliceblue
+  }
+
+  input[type="button"]{
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+  }
+
+  .calculator {
+    background-color: rgb(30, 220, 103);
+    height: 65vh;
+    width: 59vw;
+    border-radius: 10px;;
+    margin-top: 2.5rem;
+    box-sizing: border-box;
+    border: 5px solid brown;
+  }
+  .button {
+    padding: 10px;
+    font-size: 13px;
+    box-sizing: border-box;
+  
+    border-radius: 7px;
+  }
+  
+  
+  div.row1 {
+    background-color: aqua;
+    padding: 18px;
+    border: 5px solid blue;
+    position: relative;
+    left: 0px;
+    right: 0px;
+  }
+  #pos2 {
+    position: absolute;
+    right: 36px;
+  }
+
+  #pos3 {
+    position: absolute;
+    right: 0px;
+  }
+/* 
+  img {
+    position: relative;
+    left: 18rem;
+  } */
+
+  div h1 {
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+  }
+
+
+  #number {
+    width: 96%;
+    position: relative;
+    left: 3px;
+
+
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid seagreen;
+    background-color: azure;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+    line-height: 24px;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+
+
+
+  .row8 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    justify-content: space-around;
+  }
+
+  #pos {
+    position: relative;
+    left: 0px;
+
+  }
+
+
+  .button:hover {
+    background-color: lightskyblue;
+  }
+
+
+  #pos1 {
+    position: relative;
+    left: 0px;
+    width: 20px;
+  }
+}
+@media screen and (min-width:1000px) {
+  *{
+    margin:auto;
+    padding: 0;
+  }
+  #main {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: aliceblue
+  }
+
+  input[type="button"]{
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+  }
+
+  .calculator {
+    background-color: rgb(30, 220, 103);
+    height: 80vh;
+    width: 50vw;
+    border-radius: 10px;;
+    margin-top: 2.5rem;
+    box-sizing: border-box;
+    border: 8px solid brown;
+  }
+  .button {
+    padding: 12px;
+    font-size: 18px;
+    box-sizing: border-box;
+  
+    border-radius: 7px;
+  }
+
+  
+  
+div.row1 {
+  background-color: aqua;
+  padding: 18px;
+  border: 5px solid blue;
+  position: relative;
+  left: 0px;
+  right: 0px;
+}
+  #pos2 {
+    position: absolute;
+    right: 36px;
+  }
+
+  #pos3 {
+    position: absolute;
+    right: 0px;
+  }
+/* 
+  img {
+    position: relative;
+    left: 18rem;
+  } */
+
+  div h1 {
+    display: inline-block;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+  }
+
+
+  #number {
+    width: 96%;
+    position: relative;
+    left: 3px;
+
+
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid seagreen;
+    background-color: azure;
+  }
+
+  .row3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+    line-height: 24px;
+    flex-basis: 20px;
+    flex-wrap: wrap;
+  }
+
+  .row4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+  .row5 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+  .row6 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+
+
+
+  .row8 {
+    display: flex;
+    flex-direction: row;
+    font-size: 19px;
+    justify-content: space-around;
+  }
+
+  #pos {
+    position: relative;
+    left: 0px;
+
+  }
+
+
+  .button:hover {
+    background-color: lightskyblue;
+  }
+
+
+  #pos1 {
+    position: relative;
+    left: 0px;
+    width: 20px;
+  }
+}
